@@ -12,10 +12,11 @@ function App() {
        <Routes>     
         {/* Ruta predeterminada para Main */}
         <Route path="/" element={<Main />} />
-          <Route path="/ResultadosCFDI" element={<ResultadosCFDI/>} />
+        <Route path="/ResultadosCFDI" element={<ResultadosCFDI/>} />
       
        </Routes>
       </Router>
+      HOLA mundo
     </div>
   );
 }
