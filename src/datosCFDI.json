@@ -1,0 +1,21 @@
+[
+    {                 
+      "folioFiscal": "12345678-1234-1234-1234-123456789012",
+      "rfcEmisor": "ABC123456T89",
+      "rfcReceptor": "DEF123456T01",
+      "totalCFDI": "5000.00 MXN",
+      "fechaExpedicion": "2025-12-20",
+      "fechaCertificacion": "2025-12-21",
+      "razonSocialReceptor": "Pepillo el receptor"
+    },
+    {
+      "folioFiscal": "87654321-4321-4321-4321-210987654321",
+      "rfcEmisor": "XYZ987654T12",
+      "rfcReceptor": "LMN987654T34",
+      "totalCFDI": "10000.00 MXN",
+      "fechaExpedicion": "2024-11-15",
+      "fechaCertificacion": "2024-11-16",
+      "razonSocialReceptor": "Luis el receptor"
+    }
+  ]
+  

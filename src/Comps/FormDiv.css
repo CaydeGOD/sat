@@ -1,0 +1,322 @@
+/* FormDiv.css */
+.form-container {
+/* El formulario abarcará todo el ancho */
+   
+    margin: 0 auto;
+    align-items: center;
+    align-content: end;
+    min-width: 990px;
+    max-width: 1199px;
+    padding: 20px;
+
+    
+  }
+  .error-message{
+    font-size: 15px;
+    color: red;
+  }
+  .form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%; 
+    align-items: center;
+    justify-content: left;
+    margin-top: 35px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    width: calc(30%); /* Cada input ocupa 1/3 del ancho en pantallas grandes */
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight:bold;
+    text-align: left;
+    color: #5b6269;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .placeholder-container {
+  position: relative;
+}
+
+.placeholder {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  font-family: monospace;
+  color: #aaa;
+  pointer-events: none;
+  z-index: 1;
+}
+  .letras1{
+    display:flex;
+    flex-wrap:wrap;
+    align-items: left;
+    font-weight:bold; 
+    color: #4e515b;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease;
+    color: #4e515b ;
+    font-size: 18px;
+  }
+  .FolioInput{    
+    color:#4e515b ;
+    font-size: 18px;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.24);
+    border-color: #248effa0;
+  }
+  
+  .input-focused {
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  .captcha-image {
+    width: 100%; /* Imagen responsiva */
+    max-width: 150px;
+    height: auto;
+  }
+  .DatosObligatorios{
+    margin: 2%;
+    display: flex;
+    color: #4e515bd2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .submit-button {
+    background-color: #4a90e2;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #0e73e0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+  /*  width: 45%; */
+    width: 170px;
+    height: 50px; 
+    text-align: center;
+  }
+  .sub-btn{
+    align-items: flex-end;
+  }
+  .submit-button:hover {
+    background-color: #0e73e0;
+  }
+  .digitos3{
+    display: none;
+  }
+ .digitos2{
+
+ }
+  /* Para tablets y resoluciones menores */
+  @media (max-width: 1199px) {
+   /* FormDiv.css */
+    .form-container {
+      /* El formulario abarcará todo el ancho */
+    align-items: center;
+    align-content: end;
+    min-width: 900px;
+    max-width: 1099px;
+    
+    padding: 30px;
+    
+    }
+    
+    .form {
+
+      min-width: 990px;
+      max-width: 1199px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    
+      align-items: center;
+      justify-content: center;
+      margin-top: 35px;
+    }
+    .letras1{
+      margin-left: 6%;
+          
+      align-items: center;
+      align-content: end;
+      
+      justify-items:left;
+      min-width: 993px;
+      max-width: 1199px;
+    }
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      width: calc(27%); /* Cada input ocupa 1/3 del ancho en pantallas grandes */
+    }
+    
+    label {
+      margin-bottom: 5px;
+      font-weight:bold;
+      text-align: left;
+      color: #5b6269;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+  
+    }
+    .placeholder-container {
+    position: relative;
+  }
+  
+  .placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    font-family: monospace;
+    color: #aaa;
+    pointer-events: none;
+    z-index: 1;
+  }
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: box-shadow 0.3s ease;
+      
+    }
+    .FolioInput{    
+      color:#4e515b ;
+      font-size: 18px;
+    }
+    input:focus {
+      outline: none;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.24);
+      border-color: #248effa0;
+    }
+    
+    .input-focused {
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    }
+    
+    .captcha-image {
+      width: 100%; /* Imagen responsiva */
+      max-width: 150px;
+      height: auto;
+    }
+    .DatosObligatorios{
+      margin-left: 6%;
+          
+      align-items: center;
+      align-content: end;
+      
+      justify-items:left;
+      min-width: 993px;
+      max-width: 1199px;
+      display: flex;
+      color: #4e515bd2;
+      font-size: 18px;
+      font-weight: 500;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .submit-button {
+      background-color: #4a90e2;
+      color: white;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom-color: #0e73e0;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family:Arial, Helvetica, sans-serif;
+      font-size:large;
+    /*  width: 45%; */
+      width: 170px;
+      height: 50px;
+      
+      text-align: center;
+    }
+    .sub-btn{
+      align-items: flex-end;
+    }
+    .submit-button:hover {
+      background-color: #0e73e0;
+    }
+  
+    .digitos{
+        text-align: end;
+      }
+      .digitos2{
+       display: none;
+      }
+      .digitos3{
+        display: flex;
+        text-align: left;
+        font-weight: 600;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+}
+  @media (max-width: 990px) {
+    .input-container {
+      margin-top: 0px; 
+      margin-bottom: 0px; 
+      display: flex;
+      flex-direction: column;
+      width: 80%; /* Cada input ocupa el 100% del ancho en pantallas pequeñas */
+    }
+    .form-container {
+      /* El formulario abarcará todo el ancho */
+          width: 30%;
+          padding: 20px;
+        }
+        .letras1-div{
+          width: 100px;
+          display: flex;
+          flex-wrap: wrap;
+        }
+    .letras1{
+        text-align: end;
+        font-size: 120%;
+        
+        justify-content: center;
+    }   
+    .form {
+      display: flex;
+      flex-wrap: wrap;
+      width: 80%; 
+      align-items: center;
+      justify-content: center;     
+     }   
+      .digitos3{
+        display: none;
+      }
+      .digitos{
+        text-align: left;
+      }
+      .digitos2{
+      display:inline;
+      }
+      .DatosObligatorios{
+        margin-left: 10%;
+        
+      }
+  }
+  
+  

@@ -1,0 +1,225 @@
+.Encabezado{
+    margin: 0 auto;
+    align-items: center;
+    align-content: end;
+    justify-items:left;
+    min-width: 990px;
+    max-width: 1199px;
+}
+.logoSat{
+    background-color: blueviolet;
+    display: flex;
+    margin-top: 30px;
+}
+.p-nav{
+ 
+   align-items: center;
+  
+   align-content: center;
+}
+.Linea{
+    align-self: center;
+    justify-self: left;
+    height: 1px; /* Grosor de la línea */
+    background-color: #4e515b2a; /* Color de la línea */
+    margin: 50px 0; /* Espaciado arriba y abajo */
+    width: 95%; /* Ancho de la línea */
+}
+h1{
+    color: #4e515b;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+}
+.HomeLink {
+    display: inline-flex; /* Asegura que los hijos estén en una fila */
+    align-items: center; /* Alineación vertical */
+    text-decoration: none; /* Elimina el subrayado predeterminado */
+    color: inherit;
+    position: relative; /* Necesario para el pseudo-elemento */
+  }
+  
+  .HomeLink::after {
+    content: ""; /* Crea una línea */
+    position: absolute; /* Asegura que se superponga */
+    height: 1px; /* Grosor de la línea */
+    width: 97%; /* Se extiende por todo el enlace */
+    bottom: 0; /* Se ubica al final del enlace */
+    left: 0;
+    background-color: currentColor; /* Usa el color actual del texto */
+    transform: scaleX(0); /* Inicialmente invisible */
+    transform-origin: left; /* Animación desde la izquierda */
+    transition: transform 0.0s ease-in-out;
+  }
+  
+  .HomeLink:hover::after {
+    transform: scaleX(1); /* Muestra la línea al pasar el mouse */
+  }
+  
+  .icon-home {
+    width: 14px;
+    height: 18px;
+  }
+  
+  .Arrow {
+    width: 14px;
+    height: 12px;
+    margin-left: 5px;
+  }
+  
+  .Inicio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 2px;
+    color: rgb(74, 74, 74);
+    margin-top: 300%;
+  }
+  
+
+
+      /* Para tablets y resoluciones menores */
+      @media (max-width: 1199px) {
+        .Encabezado{
+          margin-left: 8%;
+          
+          align-items: center;
+          align-content: end;
+          
+          justify-items:left;
+          min-width: 800px;
+          max-width: 1099px;
+        
+      }
+      .logoSat{
+          background-color: blueviolet;
+          display: flex;
+          margin-top: 30px;
+          width: 95%;
+      }
+      .p-nav{
+       
+         align-items: center;
+        
+         align-content: center;
+      }
+      .Linea{
+          align-self: center;
+          justify-self: left;
+          height: 1px; /* Grosor de la línea */
+          background-color: #4e515b2a; /* Color de la línea */
+          margin: 50px 0; /* Espaciado arriba y abajo */
+          width: 90%; /* Ancho de la línea */
+      }
+      h1{
+          color: #4e515b;
+          font-size: 26px;
+          font-family: Arial, Helvetica, sans-serif;
+          margin-top: 30px;
+      }
+      .HomeLink {
+          display: inline-flex; /* Asegura que los hijos estén en una fila */
+          align-items: center; /* Alineación vertical */
+          text-decoration: none; /* Elimina el subrayado predeterminado */
+          color: inherit;
+          position: relative; /* Necesario para el pseudo-elemento */
+        }
+        
+        .HomeLink::after {
+          content: ""; /* Crea una línea */
+          position: absolute; /* Asegura que se superponga */
+          height: 1px; /* Grosor de la línea */
+          width: 97%; /* Se extiende por todo el enlace */
+          bottom: 0; /* Se ubica al final del enlace */
+          left: 0;
+          background-color: currentColor; /* Usa el color actual del texto */
+          transform: scaleX(0); /* Inicialmente invisible */
+          transform-origin: left; /* Animación desde la izquierda */
+          transition: transform 0.0s ease-in-out;
+        }
+        
+        .HomeLink:hover::after {
+          transform: scaleX(1); /* Muestra la línea al pasar el mouse */
+        }
+        
+        .icon-home {
+          width: 14px;
+          height: 16px;
+        }
+        
+        .Arrow {
+          width: 14px;
+          height: 12px;
+          margin-left: 5px;
+        }
+        
+        .Inicio {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 13px;
+          font-weight: lighter;
+          margin-left: 2px;
+          color: rgb(74, 74, 74);
+        }
+      }
+  
+    @media (max-width: 990px) {
+        .Encabezado{
+          
+          align-items: center;
+     
+          margin-left: 15%;
+          min-width: 700px;
+          max-width: 900px;   
+      }
+      h1{
+        color: #4e515b;
+        font-size: 29px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 30px;
+        text-align: left;
+        justify-self: center;
+      }
+      .Linea{
+        align-self: center;
+        justify-self: left;
+        height: 1px; /* Grosor de la línea */
+        background-color: #4e515b2a; /* Color de la línea */
+        margin: 50px 0; /* Espaciado arriba y abajo */
+        width: 100%; /* Ancho de la línea */
+    }
+    .icon-home {
+      width: 16px;
+      height: 19px;
+    }
+    
+    .Arrow {
+      width: 14px;
+      height: 12px;
+      margin-left: 5px;
+    }
+    
+    .Inicio {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      font-weight: lighter;
+      margin-left: 2px;
+      color: rgb(74, 74, 74);
+    }
+    .logoSat{
+      background-color: blueviolet;
+      display: flex;
+      margin-top: 30px;
+      width: 90%;
+  }
+  }
+  @media (max-width: 500px) {
+    .Encabezado{
+        
+      align-items: center;
+ 
+      margin-left: 25%;
+      min-width: 700px;
+      max-width: 900px;   
+  }
+  }
+      
