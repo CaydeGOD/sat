@@ -62,7 +62,7 @@ const TablaComprobante = ({ datos }) => {
         </tbody>
       </table>
       <div className="imprimir-btn">
-        <button onClick={handleImprimir} className="imprimir-button">
+        <button onClick={() => window.print()}  className="imprimir-button">
           Imprimir
         </button>
       </div>
