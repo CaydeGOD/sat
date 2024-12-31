@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/sat/static/css/main.2d9d4e3b.css",
-    "main.js": "/sat/static/js/main.7834c281.js",
+    "main.js": "/sat/static/js/main.2fde9f9a.js",
     "static/js/453.e77d2cc5.chunk.js": "/sat/static/js/453.e77d2cc5.chunk.js",
     "static/media/FondoVerde.png": "/sat/static/media/FondoVerde.651378a14bc48731d719.png",
     "static/media/logofooter.png": "/sat/static/media/logofooter.35fb4c0470673c302b16.png",
     "static/media/Logo_SHCP_SAT-.jpg": "/sat/static/media/Logo_SHCP_SAT-.bca67306f0bd84de241a.jpg",
     "index.html": "/sat/index.html",
     "main.2d9d4e3b.css.map": "/sat/static/css/main.2d9d4e3b.css.map",
-    "main.7834c281.js.map": "/sat/static/js/main.7834c281.js.map",
+    "main.2fde9f9a.js.map": "/sat/static/js/main.2fde9f9a.js.map",
     "453.e77d2cc5.chunk.js.map": "/sat/static/js/453.e77d2cc5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d9d4e3b.css",
-    "static/js/main.7834c281.js"
+    "static/js/main.2fde9f9a.js"
   ]
 }
