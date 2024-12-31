@@ -16,7 +16,7 @@ const formatFolio = (value) => {
 };
 
 const FolioFiscalInput = ({ value, onChange, handleFocus, handleBlur, focused }) => {
-  const [setCursorPosition] = useState(0);
+  const [cursorPosition, setCursorPosition] = useState(0);
 
   const handleInputChange = (e) => {
     const rawValue = e.target.value;

@@ -248,7 +248,10 @@
 }
 @media (max-width: 990px) {
   .footer {
-    margin-top: 30%;
+    margin-bottom: 0px;
+    
+    align-self:self-end;
+    margin-top: 30vh;
     color: white;
     background-color: #0B221D;
           min-width: 1093px;

@@ -43,24 +43,33 @@ const Formulario = () => {
       rfcReceptor &&
       captcha.length > 0
     ) {
-      // Buscar el folio en el archivo JSON
-      const resultado = datosCFDI.find(
-        (dato) =>
-          dato.folioFiscal === folioFiscal &&
-          dato.rfcEmisor === rfcEmisor &&
-          dato.rfcReceptor === rfcReceptor
-      );
+      if(captcha == 77816){
+         // Buscar el folio en el archivo JSON
+         const resultado = datosCFDI.find(
+         (dato) =>
+         dato.folioFiscal === folioFiscal &&
+         dato.rfcEmisor === rfcEmisor &&
+         dato.rfcReceptor === rfcReceptor
+         );
 
-      if (resultado) {
-        setDatosCFDISeleccionados(resultado);
-        setValidacion({ valido: true, mensaje: "" });
-      } else {
+        if (resultado) {
+         setDatosCFDISeleccionados(resultado);
+         setValidacion({ valido: true, mensaje: "" });
+        } else {
+         setDatosCFDISeleccionados(null);
+         setValidacion({
+         valido: false,
+         mensaje: "No existe, valide los datos ingresados.",
+         });
+        }  
+      }else{
         setDatosCFDISeleccionados(null);
         setValidacion({
-          valido: false,
-          mensaje: "No existe, valide los datos ingresados.",
-        });
+        valido: false,
+        mensaje: "Captcha incorrecto. Verifique la imagen.",
+      });
       }
+      
     } else {
       setDatosCFDISeleccionados(null);
       setValidacion({
