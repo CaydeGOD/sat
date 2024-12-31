@@ -124,9 +124,7 @@
   .digitos3{
     display: none;
   }
- .digitos2{
-
- }
+ 
   /* Para tablets y resoluciones menores */
   @media (max-width: 1199px) {
    /* FormDiv.css */
