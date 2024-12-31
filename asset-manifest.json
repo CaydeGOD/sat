@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/sat/static/css/main.2d9d4e3b.css",
-    "main.js": "/sat/static/js/main.175000ae.js",
+    "main.css": "/sat/static/css/main.d81a2d29.css",
+    "main.js": "/sat/static/js/main.9743e893.js",
     "static/js/453.e77d2cc5.chunk.js": "/sat/static/js/453.e77d2cc5.chunk.js",
     "static/media/FondoVerde.png": "/sat/static/media/FondoVerde.651378a14bc48731d719.png",
     "static/media/logofooter.png": "/sat/static/media/logofooter.35fb4c0470673c302b16.png",
     "static/media/Logo_SHCP_SAT-.jpg": "/sat/static/media/Logo_SHCP_SAT-.bca67306f0bd84de241a.jpg",
     "index.html": "/sat/index.html",
-    "main.2d9d4e3b.css.map": "/sat/static/css/main.2d9d4e3b.css.map",
-    "main.175000ae.js.map": "/sat/static/js/main.175000ae.js.map",
+    "main.d81a2d29.css.map": "/sat/static/css/main.d81a2d29.css.map",
+    "main.9743e893.js.map": "/sat/static/js/main.9743e893.js.map",
     "453.e77d2cc5.chunk.js.map": "/sat/static/js/453.e77d2cc5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d9d4e3b.css",
-    "static/js/main.175000ae.js"
+    "static/css/main.d81a2d29.css",
+    "static/js/main.9743e893.js"
   ]
 }
