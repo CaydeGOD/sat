@@ -13,7 +13,7 @@ function App() {
         {/* Ruta predeterminada para Main */}
         <Route path="/" element={<Main />} />
         <Route path="/ResultadosCFDI" element={<ResultadosCFDI/>} />
-      
+        <Main/>
        </Routes>
       </Router>
     </div>
