@@ -8,7 +8,6 @@ import Main from "./Comps/Main";
 function App() {
   return (
     <div className="App">
-      <Main/>
       <Router basename="/sat"> 
        <Routes>     
         {/* Ruta predeterminada para Main */}

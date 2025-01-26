@@ -13,9 +13,11 @@
 }
 .p-nav{
  
-   align-items: center;
-  
+   align-items:flex-start;
    align-content: center;
+   justify-self: left;
+   justify-content: left;
+   justify-self: right;
 }
 .Linea{
     align-self: center;
