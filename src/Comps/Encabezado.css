@@ -13,12 +13,12 @@
     margin-top: 30px;
 }
 .p-nav{
-  display: flex;
-   align-items:flex-start;
+   
+   
    align-content: center;
    justify-self: left;
    justify-content: left;
-   justify-self: right;
+   justify-items: left;
 }
 .Linea{
     align-self: center;
