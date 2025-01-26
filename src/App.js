@@ -8,12 +8,13 @@ import Main from "./Comps/Main";
 function App() {
   return (
     <div className="App">
+      <Main/>
       <Router basename="/sat"> 
        <Routes>     
         {/* Ruta predeterminada para Main */}
         <Route path="/" element={<Main />} />
         <Route path="/ResultadosCFDI" element={<ResultadosCFDI/>} />
-        <Main/>
+        
        </Routes>
       </Router>
     </div>
