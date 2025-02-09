@@ -99,7 +99,7 @@ h1{
           background-color: blueviolet;
           display: flex;
           margin-top: 30px;
-          width: 95%;
+      
       }
       .p-nav{
        
@@ -172,7 +172,7 @@ h1{
           align-items: center;
      
           margin-left: 15%;
-          min-width: 700px;
+          
           max-width: 900px;   
       }
       h1{
@@ -213,7 +213,7 @@ h1{
       background-color: blueviolet;
       display: flex;
       margin-top: 30px;
-      width: 90%;
+     
   }
   }
   @media (max-width: 500px) {

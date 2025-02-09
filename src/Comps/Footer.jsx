@@ -34,7 +34,7 @@ const Footer = () => {
 
         {/* Sección de información */}
         <div className="footer-section">
-          <h3 className="footer-heading">¿Qué es gob.mx?</h3>
+          <h3 className="footer-heading centrao">¿Qué es gob.mx?</h3>
           <p className="p-footer">
             Es el portal único de trámites, información y participación ciudadana. <a className="a-footer" href="https://www.gob.mx/que-es-gobmx">Leer más</a>
           </p>

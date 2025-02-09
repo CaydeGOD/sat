@@ -28,7 +28,7 @@
 
 /* Encabezados */
 .footer-heading {
-  margin-left: 10%;
+  
   text-align: start;
   justify-self: left;
   font-family: 'Montserrat', sans-serif;
@@ -57,7 +57,7 @@
 }
 
 .p-footer {
-  margin-left: 10%;
+  
   text-align: left;
   font-size: 0.8rem;
   justify-self: left;
@@ -83,13 +83,14 @@
 }
 .Denuncia {
   font-size: 15px;
+  justify-self: left;
  
 }
 
 /* Social Media */
 .siguenos {
   justify-self: left;
-  margin-left: 10%;
+  margin-right: 30%;
 }
 
 .siguenos h4 {

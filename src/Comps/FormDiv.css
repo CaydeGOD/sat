@@ -132,7 +132,7 @@
       /* El formulario abarcará todo el ancho */
     align-items: center;
     align-content: end;
-    min-width: 900px;
+    
     max-width: 1099px;
     
     padding: 30px;
